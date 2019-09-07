@@ -154,7 +154,7 @@ try:
         elif 'intro' in query:
             intro()
 
-        elif 'band karo' in query:
+        elif 'close' in query:
            speak("Okey Sir, I'm going..")
            quit()
 
