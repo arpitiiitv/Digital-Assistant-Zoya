@@ -31,7 +31,7 @@ import os
 engine =pyttsx3.init('sapi5') #microsoft ech api
 voices = engine.getProperty('voices')
 #print(voices[0].id)  #voices[0].id for male voice
-engine.setProperty('voice',voices[1].id)
+engine.setProperty('voice',voices[0].id)
 
 
 def speak(audio):
