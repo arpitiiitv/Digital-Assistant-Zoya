@@ -154,13 +154,13 @@ try:
         elif 'intro' in query:
             intro()
 
-        elif 'close' in query:
+        elif 'Stop' in query or 'close' in query:
            speak("Okey Sir, I'm going..")
            quit()
-
-        elif 'Stop' in query:
-           speak("Okey Sir, I'm going..")
-           quit()
+            
+        elif 'shutdown' in query:
+            speak('okay, shutting down')
+            os.system('shutdown -s')
 except KeyboardInterrupt:
     raise
 except:
